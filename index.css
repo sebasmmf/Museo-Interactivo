@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2? family= Kanit:wght@600 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: Kalam;
+    font-size: 6rem;
+}
+
+h4{
+  font-family:'Lobster', cursive;
+}
+
+.navbar-brand {
+    font-family: Kalam;
+}
+
+
+/* CUSTOM CLASSES*/
+
+.bg-bluedark {
+    background-color: #064635;
+}
+
+.row {
+    padding: 30px 15px;
+}
+
+.parallax {
+    background: linear-gradient( to right, rgba(0, 0, 0, .75), rgba(23, 29, 102, .75)), url('Pictures/Home\ Image\ Section.jpg');
+    background-attachment: fixed;
+    background-position: 100% 30%;
+    background-size: cover;
+    height: 85%;
+}
+
+
+/* CUSTOM CLASSES*/
+
+header .navbar-brand img {
+    height: 50px;
+}
+
+header .bg-image {
+    background-image: url('Pictures/Home\ Image\ Section.jpg');
+    background-attachment: fixed;
+    background-position: 100% 30%;
+    height: 85vh;
+}
+
+header .bg-image .mask {
+    background: linear-gradient(to right, rgba(0, 0, 0, .75), rgba(23, 29, 102, .50));
+}
+
+section {
+    padding: 60px 40px;
+}
+
+section#who-is p {
+    text-align: justify;
+}
+
+section#who-is img {
+    height: 300px;
+    border-radius: 50%;
+}
+
+section#services i {
+    color: #fff;
+    padding: 30px 0;
+}
+
+section#services .row:nth-child(2) .col:nth-child(odd) i {
+    background-color: #064635;
+}
+
+section#services .row:nth-child(2) .col:nth-child(even) i {
+    background-color: #064635;
+}
+
+section#gallery .carousel-item img {
+    width: 100%;
+    height: 400px;
+}
+
+section#contact-me form label,
+section#contact-me form input,
+section#contact-me form textarea {
+    color: white;
+}
+
